@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #settingsButton{
+            position: absolute;
+            width:80px;
+            height:30px;
+            top: 470px;
+            left: 920px;
+            font-size: 15px;
+        }
+        #towerButton{
+            position: absolute;
+            width:80px;
+            height:30px;
+            top: 440px;
+            left: 920px;
+            font-size: 15px;
+        }
+        #audioButton{
+            position: absolute;
+            width:80px;
+            height:30px;
+            top: 410px;
+            left: 920px;
+            font-size: 15px;  
+        }
+    </style>
+</head>
+<body onload="mainMenu()">
+    <audio src="audio/mainSong.mp3" id="wwaudio"></audio>
+    <audio src="audio/minusHealthSound.mp3" id="oof"></audio>
+    <audio src="audio/enemyDeathSound.mp3" id="enemyDeath"></audio>
+    <p id="xy"></p>
+    <p id="xyskusacky"></p>
+    <button id="settingsButton" onclick="showSettings.start()"><b>Settings</b></button>
+    <button id="towerButton" onclick="showTowerMenu1.start()"><b>Towers</b></button>
+    <button id="audioButton" onclick="toggleAudio()"><b>Audio</b></button>
+    <script src="js/audio.js"></script>
+    <script src="js/logika.js"></script>
+    <script src="js/scenes.js"></script>
+    <script src="js/loop.js"></script>
+    <script src="js/global.js"></script>
+    <script src="js/objekty.js"></script>
+</body>
+</html>
