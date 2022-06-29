@@ -6,7 +6,7 @@ DBS - Database Systems - python and sql
 PKS - Computer and Communication Networks - python  
 UI - Artificial Intelligence - python  
 DSA - Data Structures and Algorithms - C  
-Javascript game - This is a very old project, one of my first, primitive compared to what came after - javascript  
+Javascript game - This is a very old project, much simpler than the other projects - javascript  
   
 OOP - This course's project can be given out upon request.
 email: xmiskove@stuba.sk
